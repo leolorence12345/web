@@ -1,0 +1,4 @@
+<p style="font-size: 24px ; font-weight: bold;text-align: center; ">Take a look at some examples of Biophilic Design in some other places</p>
+<br>
+
+<a href="https://www.figma.com/file/NN6QUpkvLO2NfjRXaj0aOs/SOME-REFERENTS-OF-BIOPHILIC-DESIGN?type=whiteboard&node-id=0-1&t=mMWRCO49BV7Ao8t1-0"><button style="background-color: #0074d9; color: white; border: none; border-radius: 20px; padding: 10px 20px; cursor: pointer;">www.figma.com</button></a>

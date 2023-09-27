@@ -1,0 +1,10 @@
+<p style="font-size: 24px ; font-weight: bold;text-align: left; ">14 BIOPHILIC PATTERNS</p>
+
+<p style= "text-align: left; ">
+The interactive map and the read of the 14 biophilic patterns are invaluable resources for anyone interested in architectural design and the creation of healthier and more sustainable spaces. The interactive map provides a visually appealing and comprehensive experience, showcasing how biophilic elements are applied in a university setting with images, maps, and intriguing data that allow for interactive exploration of the impact of these designs on the educational environment.
+<br><br>
+
+On the other hand, the book of the 14 biophilic patterns is a profound and detailed guide that delves into designing spaces inspired by nature. It offers a thorough analysis of the patterns and strategies to create environments that enhance people's quality of life, promoting a connection with nature and generating benefits in terms of well-being, productivity, and sustainability.
+<br>
+</p>
+<a href="https://www.terrapinbrightgreen.com/reports/14-patterns/"><button style="background-color: #0074d9; color: white; border: none; border-radius: 20px; padding: 10px 20px; cursor: pointer;">www.terrapinbrightgreen.com</button></a>
