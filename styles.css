@@ -1,0 +1,385 @@
+/* styles.css */
+#map-container {
+    position: relative;
+    width: 1404px;
+    height: 846px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+}
+
+#map-image {
+    max-width: 100%;
+}
+/* Style for the buttons/markers */
+.marker {
+    position: absolute;
+    background-color: rgb(255, 255, 255); /* Adjust the color as needed */
+    width: 20px; /* Adjust the button size as needed */
+    height: 20px;
+    border-radius: 50%; /* Makes it circular */
+    cursor: pointer;
+}
+
+/* Marker 1 */
+.marker1 {
+    top: 65px;
+    left: 150px;
+}
+
+/* Marker 2 */
+.marker2 {
+    top: 250px;
+    left: 50px;
+}
+
+/* Marker 3 */
+.marker3 {
+    top: 700px;
+    left: 450px;
+}
+
+/* Marker 4 */
+.marker4 {
+    top: 700px;
+    left: 730px;
+}
+
+/* Marker 5 */
+.marker5 {
+    top: 700px;
+    left: 1000px;
+}
+
+/* Marker 6 */
+.marker6 {
+    top: 220px;
+    left: 1320px;
+}
+
+/* Marker 7 */
+.marker7 {
+    top: 440px;
+    left: 1250px;
+}
+
+/* Marker 8 */
+.marker8 {
+    top: 690px;
+    left: 1310px;
+}
+
+/* Marker 9 */
+.marker9 {
+    top: 740px;
+    left: 1220px;
+}
+
+/* Marker 10 */
+.marker10 {
+    top: 785px;
+    left: 1130px;
+}
+
+/* Marker 11 */
+.marker11 {
+    top: 40px;
+    left: 280px;
+}
+
+/* Marker 12 */
+.marker12 {
+    top: 300px;
+    left: 50px;
+}
+
+/* Marker 13 */
+.marker13 {
+    top: 200px;
+    left: 400px;
+}
+
+/* Marker 14 */
+.marker14 {
+    top: 340px;
+    left: 850px;
+}
+
+/* Marker 15 */
+.marker15 {
+    top: 120px;
+    left: 1220px;
+}
+
+/* Marker 16 */
+.marker16 {
+    top: 320px;
+    left: 1320px;}
+
+/* Marker 17 */
+.marker17 {
+    top: 640px;
+    left: 1130px;
+}
+
+/* Marker 18 */
+.marker18 {
+    top: 690px;
+    left: 1220px;
+}
+
+/* Marker 19 */
+.marker19 {
+    top: 740px;
+    left: 1310px;
+}
+
+/* Marker 20 */
+.marker20 {
+    top: 825px;
+    left: 1130px;
+}
+
+/* Marker 21 */
+.marker21 {
+    top: 40px;
+    left: 320px;
+}
+
+/* Marker 22 */
+.marker22 {
+    top: 480px;
+    left: 180px;
+}
+
+/* Marker 23 */
+.marker23 {
+    top: 793px;
+    left: 490px;
+}
+
+/* Marker 24 */
+.marker24 {
+    top: 150px;
+    left: 925px;
+}
+
+/* Marker 25 */
+.marker25 {
+    top: 120px;
+    left: 1320px;
+}
+
+/* Marker 26 */
+.marker26 {
+    top: 380px;
+    left: 1380px;
+}
+
+/* Marker 27 */
+.marker27 {
+    top: 640px;
+    left: 1220px;
+}
+
+/* Marker 28 */
+.marker28 {
+    top: 690px;
+    left: 1130px;
+}
+
+/* Marker 29 */
+.marker29 {
+    top: 785px;
+    left: 1310px;
+}
+
+/* Marker 30 */
+.marker30 {
+    top: 825px;
+    left: 1220px;
+}
+
+/* Marker 31 */
+.marker31 {
+    top: 40px;
+    left: 380px;
+}
+
+/* Marker 32 */
+.marker32 {
+    top: 730px;
+    left: 150px;
+}
+
+/* Marker 33 */
+.marker33 {
+    top: 220px;
+    left: 650px;
+}
+
+/* Marker 34 */
+.marker34 {
+    top: 420px;
+    left: 1000px;
+}
+
+/* Marker 35 */
+.marker35 {
+    top: 220px;
+    left: 1220px;
+}
+
+/* Marker 36 */
+.marker36 {
+    top: 340px;
+    left: 1250px;
+}
+
+/* Marker 37 */
+.marker37 {
+    top: 640px;
+    left: 1310px;
+}
+
+/* Marker 38 */
+.marker38 {
+    top: 740px;
+    left: 1130px;
+}
+
+/* Marker 39 */
+.marker39 {
+    top: 785px;
+    left: 1220px;
+}
+
+/* Marker 40 */
+.marker40 {
+    top: 825px;
+    left: 1310px;
+}
+
+
+
+
+#popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px; /* Set the width to your desired fixed value */
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    overflow: hidden;
+}
+
+#popup-card {
+    background-color: #fff;
+    height: 400px; /* Set the height to your desired fixed value */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+}
+
+#popup-left {
+    width: 60%;
+    padding-right: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#popup-image {
+    max-width: 100%;
+    max-height: 100%; /* Ensure the image takes full height of the left side */
+    vertical-align: middle;
+    border: 2px solid #333;
+}
+
+#popup-right {
+    width: 40%;
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+    padding: 10px;
+}
+
+
+/* Style for image navigation buttons */
+#image-nav {
+    margin-top: 10px;
+}
+#popup-non-image {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.popup-non-image-content {
+    padding: 20px;
+}
+
+
+/* #prev-image-btn,
+#next-image-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+} */
+
+#prev-image-btn {
+    background-image: url('left-arrow.png');
+    background-color: #b3afaf;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+#next-image-btn {
+    background-image: url('right-arrow.png');
+    background-color: #b3afaf;
+    color: black;
+    border: none; 
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50%; 
+}
+
+
+#popup-close-btn {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed for spacing */
+    right: 10px; /* Adjust the right position as needed for spacing */
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+/* Style for the close button */
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333; /* Change the color to match your design */
+}
+
+
